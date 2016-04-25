@@ -15,7 +15,7 @@ deploy:
   organization: OrdinaBelgiumNV
   space: development
   on:
-    repo: Ordineo/employee-core-service
+    repo: Ordineo/auth-server
     branch: master
 notifications:
   slack:
