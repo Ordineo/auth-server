@@ -1,0 +1,31 @@
+server:
+  port: ${PORT:9999}
+  contextPath: /uaa
+spring:
+  redis:
+    host: 192.168.99.100
+    database: 0
+    port: 32769
+    timeout: 0
+    pool:
+      max-active: 8
+      max-idle: 8
+      max-wait: -1
+      min-idle: 0
+security:
+#  oauth2:
+#      client:
+#        clientId: acme
+#        clientSecret: acmesecret
+#        authorized-grant-types: authorization_code,refresh_token,password
+#        scope: openid
+#        auto-approve-scopes: '.*'
+  user:
+    password: password
+  sessions: NEVER
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
