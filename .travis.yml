@@ -9,7 +9,7 @@ deploy:
   edge: true
   provider: cloudfoundry
   api: https://api.run.pivotal.io
-   username: gina.debeukelaer@ordina.be
+  username: gina.debeukelaer@ordina.be
     password:
       secure: GZPxlKmZ3MAjbCm01BT2bIZSvSpVSYBeb0ffoxsafJAVpXUZeQr5jEB9992tiGD86ZBQFu7wD1fcTgFvsFMBCO/8f9Nq1Ihntf/QRFsF5YAB7K2LBsT7kfQLEHkgzTDOWt0JCha4LmEX/7GpumhxOoR8Db4A/rVdI2B88L/I6Pmeqn0UZzLzYSTbMBHVoE9Ukw74Vw2M5cLQ/RR496M62qdizNQUC0+G85gb90lgwyOr5HxD68vMfHLgNVsAVvRwDCkuomyR/7/ie6D465t+7prW5XvsWSJcrcqDt5V195spXDnRIcZ3y5Gw491J01HomSpfTn5oXZEgedF8ogtEf4z8Ghp2C2d4PhQx/RyKaVmkzy6s42+HW1YJnIFXNdAOhsddPe3QhcMI/0J6V1wBc3CkyRfz63O5lP0Yg/Fp6INX4FwtrMtlSDISsNmfazi+jcnn5swNsewm7Yr7o3QbPNzPCr0R0VD1Pli9nZJWuVnUx0IvKoyPhqoUV1Z4wzP8nrn7pVYs/rPqOYf/9PKtElW2Th80J73leX/RgK5sYyyYRqr94FheLY4dnd1ZLwu0a9U0+GRh14ekyNj1Y10v3iPEJKWt2mbdmHX/eEPTlRRK925bF9xsnzC+1wfLT/GzfMi6qJ/gP0Njskc5/+ldn1bjyuI7pfKS8WQqVAc4rL8=
   organization: OrdinaBelgiumNV
