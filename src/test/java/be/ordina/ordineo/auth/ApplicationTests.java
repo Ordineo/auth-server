@@ -1,4 +1,4 @@
-package be.ordina.threesixty.admin;
+package be.ordina.ordineo.auth;
 
 import be.ordina.ordineo.auth.AuthApplication;
 import org.junit.Test;
