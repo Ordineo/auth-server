@@ -1,3 +1,0 @@
-[submodule "auth-server"]
-	path = auth-server
-	url = git@github.com:Ordineo/auth-server.git
