@@ -1,17 +1,11 @@
 server:
   port: ${PORT:9999}
   contextPath: /uaa
-#spring:
-#  redis:
-#    host: 192.168.99.100
-#    database: 0
-#    port: 32769
-#    timeout: 0
-#    pool:
-#      max-active: 8
-#      max-idle: 8
-#      max-wait: -1
-#      min-idle: 0
+spring:
+  redis:
+    host: pub-redis-15392.us-east-1-4.4.ec2.garantiadata.com
+    database: 0
+    port: 15392
 security:
 #  oauth2:
 #      client:
