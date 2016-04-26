@@ -12,6 +12,4 @@ public class AuthController {
     public Principal user(Principal user) {
         return user;
     }
-
-
 }
