@@ -7,13 +7,13 @@ spring:
     database: 0
     port: 15392
 security:
-#  oauth2:
-#      client:
-#        clientId: acme
-#        clientSecret: acmesecret
-#        authorized-grant-types: authorization_code,refresh_token,password
-#        scope: openid
-#        auto-approve-scopes: '.*'
+  oauth2:
+      client:
+        clientId: acme
+        clientSecret: acmesecret
+        authorized-grant-types: authorization_code,refresh_token,password
+        scope: openid
+        auto-approve-scopes: '.*'
   user:
     password: password
   sessions: NEVER
